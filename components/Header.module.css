@@ -1,0 +1,8 @@
+.header_prop{
+    border-bottom: 1px solid rgb(78, 78, 78);
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+}
