@@ -1,0 +1,33 @@
+#main_content{
+    height: 50vh;
+    width: 100%;
+    padding: 30px;
+    border-bottom:1px solid  rgb(78, 78, 78); ;
+    /* position: absolute; */
+}
+
+#maincontent_heading_container{
+    margin-top: 20px;
+    width: 45rem;
+    position: relative;
+    left: 70px;
+}
+
+
+#main_content_heading{
+ 
+    font-size: 62px;
+    font-weight: 700;
+}
+
+#main_content_bio{
+    width: 45rem;
+    position: relative;
+    left: 70px;
+}
+
+#main_content_paragraph{
+    left: 70px;
+    /* width: 45rem; */
+    line-height: 3.5rem;
+}

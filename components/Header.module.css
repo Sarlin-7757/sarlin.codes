@@ -1,8 +1,11 @@
-.header_prop{
+#header_prop{
     border-bottom: 1px solid rgb(78, 78, 78);
     height: 5rem;
     position: sticky;
     top: 0;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
     width: 100%;
-    
+    transition: background-color 0.3s ease-in-out;
+    /* background: transparent; */
 }

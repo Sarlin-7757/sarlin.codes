@@ -5,8 +5,8 @@ import styles from './Header.module.css';
 
 const Header = () => {
   return (
-    <div className={styles.header_prop}>
-      <nav className= "sticky top-0 z-10  px-20 pt-2 backdrop-filter backdrop-blur-lg bg-opacity-50">
+    <div id={styles.header_prop}>
+      <nav className= " z-10  px-20 pt-2 ">
         <div className="">
             <div className="flex items-center justify-between h-16">
               <span className="text-2xl text-white-900 font-semibold font-mono">SL</span>
