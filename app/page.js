@@ -2,6 +2,7 @@ import React from "react";
 import Header from "@/components/Header";
 import SideBar from "@/components/SideBar";
 import MainContent from "@/components/MainContent"; 
+import SkillsComponent from "@/components/SkillsComponent";
 
 const App = ()=>{
   return (
@@ -10,7 +11,8 @@ const App = ()=>{
       <Header />
       <div className="flex">
           <SideBar /> 
-          < MainContent /> 
+          < MainContent />     
+          {/* <SkillsComponent /> */}
       </div>
     </main>
   )
