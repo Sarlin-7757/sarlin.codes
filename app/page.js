@@ -9,11 +9,12 @@ const App = ()=>{
 
     <main> 
       <Header />
-      <div className="flex">
+      <div className="flex" style={{height:"600px" , marginTop:"100px"}}>
           <SideBar /> 
-          < MainContent />     
-          {/* <SkillsComponent /> */}
+          < MainContent />                    
       </div>
+      <SkillsComponent />
+
     </main>
   )
 }

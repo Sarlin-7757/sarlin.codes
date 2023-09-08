@@ -1,6 +1,9 @@
 #main_content{
+    
+    position: relative;
+    left:22rem;
     height: 50vh;
-    width: 100%;
+    width: 80%;
     padding: 30px;
     border-bottom:1px solid  rgb(78, 78, 78); 
     /* position: absolute; */
@@ -45,4 +48,9 @@
 
 #profileImage{
     border-radius: 180px;
+    transition: transform 250ms;
 }
+
+/* #profileImage:hover{
+    transform: rotate3d(0 , 0 , 1 , 45deg);
+} */

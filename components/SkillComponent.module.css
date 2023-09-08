@@ -1,0 +1,36 @@
+#skill_Div{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* border-bottom: 1px solid rgb(78, 78, 78); */
+    /* left: 22rem; */
+}
+
+#dot{
+   top: 53px;
+    left: 53px;
+    position: relative;
+    border-radius: 50%;
+    height: 16px;
+    width: 15px;
+    background: rgb(78,78,78);
+    display: flex;
+} 
+
+#iconImage{
+    position: relative;
+    left: 14rem;
+    top: 5rem;
+}
+
+#line{
+
+    top:45px;
+    left: 60px;
+    position: relative;
+    background: rgb(78,78,78);
+    height: 138px;
+    width: 1px; 
+    margin-bottom: 5px;
+}
+
