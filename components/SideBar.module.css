@@ -24,3 +24,20 @@
     background-color: #5c5c5c;
     border-radius: 5px;
 }
+.submenu{
+    display: none;
+   
+   
+}
+
+.submenu.visible{
+    display: block;
+}
+
+.submenuSkill{
+    display: none;
+}
+
+.submenuSkil.visible{
+    display: none;
+}
