@@ -54,7 +54,7 @@ const SkillsComponent = () => {
         </div>
       </div >
 
-      <div style={{ position: "relative", width: "50%", left: "22.5rem" , height:"100%" }}>
+      <div style={{ position: "relative", width: "50%", left: "22.5rem" , height:"90%" }}>
         <h2 style={{fontSize:"30px" , marginLeft: "60px"}}>Backend and Frameworks</h2>
         <div style={{ position: 'relative', left: "20px" }}>
           <Image
