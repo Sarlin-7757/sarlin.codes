@@ -1,11 +1,12 @@
 import React from "react";
 import myProject from "@/data/projects";
 
+import Styles from "./ProjectCard.module.css"
 
 const ProjectCard = () =>{
     
      const projects = myProject.map((project)=> (
-            <div  key={project.id} class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div  key={project.id} class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" id={Styles.projcardComp}>
             <a href="#">
                 <img class="rounded-t-lg object-fit" src={project.image} alt="" />
             </a>

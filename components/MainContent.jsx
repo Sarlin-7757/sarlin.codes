@@ -8,6 +8,7 @@ const MainContent = () => {
     
     <div id={Styles.main_content} className='font-mono'>
      <h3 style={{width:"115px"}}>Introduction</h3>
+      <div>
         <div id={Styles.maincontent_heading_container}>
             <h1 id={Styles.main_content_heading}>Hi! I am Saransh</h1> 
         </div>
@@ -21,9 +22,10 @@ const MainContent = () => {
          
         </div>
 
-        <div id={Styles.main_content_bioImage}>
+      </div>
+            <div id={Styles.main_content_bioImage}>
              {/* This is my image */}
-             <Image src="/assets/images/pp1.png " id={Styles.profileImage}  width={380} height={380}/>
+             <Image src="/assets/images/pp1.png " id={Styles.profileImage}  width={450} height={380}/>
         </div>
     </div>
     

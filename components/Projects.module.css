@@ -5,9 +5,35 @@
     top:170rem;
 }
 
+.projCompHead{
+    position:relative;
+     left:24.8rem;
+    width:64px;
+}
+
+
 #projectCard{
     position: relative;
     left:28.4rem;
     width: 60%;
     margin-top: 40px;
+}
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width:1024px){
+
+    #projectSection{
+        top:230rem;
+    }
+
+    .projCompHead{
+      left: 8.9rem;  
+    }
+
+    #projectCard{
+        left:11rem;
+        top:2em;  
+        width: 70%;
+    }
 }

@@ -2,11 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 import Styles from "./SkillComponent.module.css"
 const SkillsComponent = () => {
-  return (
-    <div className='font-mono' id={Styles.skill_Div}>
-      <h3 style={{ position: "relative", left: "24.8rem", width: "64px" }}>Skills</h3>
 
-      <div style={{ position: "relative", marginTop: "26px", width: "50%", left: "22.5rem" , height:"100%" }}>
+  return (
+    <section className={Styles.skillCompSection}>
+      <div className='font-mono' id={Styles.skill_Div}>
+      <h3 className={Styles.skillCompHead} >Skills</h3>
+
+      <div className={Styles.frontendSkillDiv}>
         <h2 style={{ fontSize: "30px", marginLeft: "60px" }}>Frontend and Frameworks.</h2>
         <div style={{ position: 'relative', left: "20px" }}>
           <Image
@@ -54,7 +56,7 @@ const SkillsComponent = () => {
         </div>
       </div >
 
-      <div style={{ position: "relative", width: "50%", left: "22.5rem" , height:"90%" }}>
+      <div className={Styles.backendSkillDiv}>
         <h2 style={{fontSize:"30px" , marginLeft: "60px"}}>Backend and Frameworks</h2>
         <div style={{ position: 'relative', left: "20px" }}>
           <Image
@@ -103,7 +105,9 @@ const SkillsComponent = () => {
       </div>
     </div>
 
-  )
+
+    </section>
+      )
 }
 
 export default SkillsComponent

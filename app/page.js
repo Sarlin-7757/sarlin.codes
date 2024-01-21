@@ -4,12 +4,14 @@ import SideBar from "@/components/SideBar";
 import MainContent from "@/components/MainContent"; 
 import SkillsComponent from "@/components/SkillsComponent";
 import Projects from "@/components/Projects";
+import Styles from './pagestyle.module.css'
 const App = ()=>{
+    
   return (
 
     <main> 
       <Header />
-      <div className="flex" style={{height:"600px" , marginTop:"100px"}}>
+      <div className="flex" id={Styles.mainupperdiv}>
           <SideBar /> 
           < MainContent />                    
       </div>

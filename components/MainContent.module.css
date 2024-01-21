@@ -54,3 +54,53 @@
 /* #profileImage:hover{
     transform: rotate3d(0 , 0 , 1 , 45deg);
 } */
+
+/* tablets and ipads  */
+
+
+@media only screen and (min-device-width: 768px)and (max-device-width:1024px){
+
+    #main_content{
+        left:1rem;
+        border-bottom:none;
+    }
+
+    #maincontent_heading_container{
+        width: 85%;
+
+    }
+    #main_content_heading{
+        font-size: 34px;
+        width: 85%;
+    }
+    
+
+    #main_content_bio{
+        width: 85%;
+        border-radius: none;
+    }
+
+    #main_content_bioImage{
+        height: 360px;
+        width: 450px ;
+        top:5em;
+    }
+
+    #profileImage{
+        border-radius: 70px;
+    }
+
+    #main_content_bioImage{
+        left:6rem
+    }
+
+
+}
+
+@media  only screen and (min-device-width:768px) and (max-device-width:942px) {
+
+    #main_content_bioImage{
+        left:7rem;
+    }
+    
+}

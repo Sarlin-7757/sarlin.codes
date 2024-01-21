@@ -34,3 +34,55 @@
     margin-bottom: 5px;
 }
 
+.skillCompHead{
+    position: relative;
+    left: 24.8rem;
+    width: 64px;
+}
+
+.frontendSkillDiv{
+    position: relative;
+    margin-top: 26px; 
+    width: 50%; 
+    left: 22.5rem; 
+    height:100%;
+}
+
+.backendSkillDiv{
+    bottom: 5rem;
+    position: relative;
+    width: 50%;
+    left: 22.5rem;  
+    height:90%;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width:1024px){
+
+    .skillCompSection{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        top:40rem; 
+    }
+
+    .skillCompHead{
+        position: relative;
+        left:8.9rem;
+    }
+
+
+    .frontendSkillDiv{
+        left:12.5rem;
+        width: 30%;
+        height: 90%;
+    }
+
+    .backendSkillDiv{
+        left:12.5rem;
+        width: 30%;
+        bottom: -60rem;
+        height: 90%;
+        position: absolute;
+    }
+}
+
