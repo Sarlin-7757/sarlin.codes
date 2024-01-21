@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import SideBar from "@/components/SideBar";
 import MainContent from "@/components/MainContent"; 
 import SkillsComponent from "@/components/SkillsComponent";
-
+import Projects from "@/components/Projects";
 const App = ()=>{
   return (
 
@@ -14,8 +14,7 @@ const App = ()=>{
           < MainContent />                    
       </div>
       <SkillsComponent />
-
-
+      <Projects />
     </main>
   )
 }

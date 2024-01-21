@@ -6,6 +6,7 @@
     /* border-right: 1px solid  rgb(78, 78, 78); */
     display: grid;
     justify-content: space-around;
+    z-index: 1000;
 }
 
 

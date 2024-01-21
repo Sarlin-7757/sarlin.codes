@@ -23,11 +23,10 @@ const MainContent = () => {
 
         <div id={Styles.main_content_bioImage}>
              {/* This is my image */}
-             <Image src="/assets/images/pfp.jpeg " id={Styles.profileImage}  width={370} height={370}/>
+             <Image src="/assets/images/pp1.png " id={Styles.profileImage}  width={380} height={380}/>
         </div>
     </div>
-
-  )
-}
-
+    
+   ) 
+}  
 export default MainContent

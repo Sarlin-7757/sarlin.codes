@@ -23,16 +23,17 @@ const SideBar = () => {
             <li id={Styles.list_items} onClick={toggleSkill}>&gt; Skills</li>
             {isSkilOpen && (
               <ul className='submenuSkill'  style={{marginTop:"5px"}}>
-                <li style={{position:"relative" , left:"40px" , fontSize:"14px"}}>- Frontend</li>
-                <li style={{position:"relative" , left:"40px" , fontSize:"14px"}}>- Backend</li>
+                <li style={{position:"relative" , left:"40px" , fontSize:"14px" , cursor:"pointer" , marginTop:"4px"}}>- Frontend</li>
+                <li style={{position:"relative" , left:"40px" , fontSize:"14px" , cursor:"pointer" , marginTop:"4px"}}>- Backend</li>
               </ul>
             )}
             <li id={Styles.list_items} onClick={toggleProjects}>&gt; Projects</li>            
             {isProjectOpen &&(
             <ul className='submenu' style={{marginTop:"5px"}}>
-                <li style={{position:"relative" , left:"40px" , fontSize:"14px"}}>- Project1</li> 
-                <li style={{position:"relative" , left:"40px" , fontSize:"14px"}}>- Project2</li>
-                <li style={{position:"relative" , left:"40px" , fontSize:"14px"}}>- Project3</li>
+                <li style={{position:"relative" , left:"40px" , fontSize:"14px" , cursor:"pointer" , marginTop:"4px"}}>- Face Detection</li> 
+                <li style={{position:"relative" , left:"40px" , fontSize:"14px" , cursor:"pointer" , marginTop:"4px"}}>- Geneomics </li>
+                <li style={{position:"relative" , left:"40px" , fontSize:"14px" , cursor:"pointer" , marginTop:"4px"}}>- Todo List</li>
+                <li style={{position:"relative" , left:"40px" , fontSize:"14px" , cursor:"pointer" , marginTop:"4px"}}>- Weather API</li>
             </ul> 
             )}
         </ul>
