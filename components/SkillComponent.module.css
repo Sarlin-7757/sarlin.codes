@@ -49,7 +49,7 @@
 }
 
 .backendSkillDiv{
-    bottom: 5rem;
+    /* bottom: 5rem; */
     position: relative;
     width: 50%;
     left: 22.5rem;  
@@ -63,6 +63,10 @@
         width: 100%;
         position: relative;
         top:40rem; 
+    }
+
+    #skill_Div{
+        left:-1rem;
     }
 
     .skillCompHead{
@@ -90,6 +94,8 @@
 
 @media(max-width:480px){
     #skill_Div{
+        display: flex;
+        flex-direction: column;
         top: 89rem;
         left: -22rem ;
     /* border-bottom: 1px solid rgb(78, 78, 78); */
@@ -110,6 +116,6 @@
 
     .backendSkillDiv{
         width: 0%;
-        bottom:1rem ;
+        top:13rem ;
     }
 }
