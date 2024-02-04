@@ -13,3 +13,10 @@
         /* max-width: 57px; */
     }
 }
+
+
+@media (max-width:480px) {
+    #mainupperdiv{
+        flex-direction:column;
+    }
+}

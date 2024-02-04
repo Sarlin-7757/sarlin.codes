@@ -86,3 +86,30 @@
     }
 }
 
+
+
+@media(max-width:480px){
+    #skill_Div{
+        top: 89rem;
+        left: -22rem ;
+    /* border-bottom: 1px solid rgb(78, 78, 78); */
+    /* left: 22rem; */
+    }
+
+    #skillCompHead{
+        font-size: 15px;
+    }
+
+    #skillName{
+        font-size: 24px;
+    }
+
+    .frontendSkillDiv{
+        width: 0%;
+    }
+
+    .backendSkillDiv{
+        width: 0%;
+        bottom:1rem ;
+    }
+}

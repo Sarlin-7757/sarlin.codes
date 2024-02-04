@@ -7,7 +7,7 @@ const MainContent = () => {
   return (
     
     <div id={Styles.main_content} className='font-mono'>
-     <h3 style={{width:"115px"}}>Introduction</h3>
+     <h3 id={Styles.main_content_h3} style={{width:"115px"}}>Introduction</h3>
       <div>
         <div id={Styles.maincontent_heading_container}>
             <h1 id={Styles.main_content_heading}>Hi! I am Saransh</h1> 

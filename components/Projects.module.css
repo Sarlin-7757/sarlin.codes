@@ -37,3 +37,21 @@
         width: 70%;
     }
 }
+
+
+@media(max-width:480px){
+    #projectSection{
+        top: 210rem;
+    }
+
+    .projCompHead{
+        left:3.5rem;
+        font-size: 15px;
+    }
+
+
+    #projectCard{
+       left: 3rem; 
+       width: 65%;
+    }
+}

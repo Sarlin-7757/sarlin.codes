@@ -11,3 +11,22 @@
     }
     
 }
+
+
+@media(max-width:480px){
+    #cardForMobile{
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+
+    #inncerCardProp_u{
+        margin-bottom: 1rem;
+        margin-top:1rem;
+    }
+
+    #innerCardProp_l{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

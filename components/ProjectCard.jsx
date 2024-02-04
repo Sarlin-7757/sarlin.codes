@@ -28,9 +28,9 @@ const ProjectCard = () =>{
         const rows = [];
         for(let i = 0 ; i < projects.length ; i+=2){
             rows.push(
-                <div key={i} className="flex mb-9">
-                    <div className="mr-8">{projects[i]}</div>
-                    <div className="mr-8">{projects[i+1]}</div>
+                <div key={i} className="flex mb-9" id={Styles.cardForMobile}>
+                    <div id={Styles.innerCardProp_u}  className="mr-8">{projects[i]}</div>
+                    <div id={Styles.innerCardProp_l} className="mr-8">{projects[i+1]}</div>
                 </div>
             )
         }
