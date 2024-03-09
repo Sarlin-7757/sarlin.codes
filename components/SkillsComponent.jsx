@@ -4,12 +4,12 @@ import Styles from "./SkillComponent.module.css"
 const SkillsComponent = () => {
 
   return (
-    <section className={Styles.skillCompSection}>
+    <section id="SkillsComp" className={Styles.skillCompSection}>
       <div className='font-mono' id={Styles.skill_Div}>
       <h3 className={Styles.skillCompHead} >Skills</h3>
 
       <div className={Styles.frontendSkillDiv}>
-        <h2 className={Styles.skillName} style={{ fontSize: "30px", marginLeft: "60px" }}>Frontend and Frameworks.</h2>
+        <h2 id="frontEndComp"className={Styles.skillName} style={{ fontSize: "30px", marginLeft: "60px" }}>Frontend and Frameworks.</h2>
         <div style={{ position: 'relative', left: "20px" }}>
           <Image
             id={Styles.iconImage}
@@ -56,7 +56,7 @@ const SkillsComponent = () => {
         </div>
       </div >
 
-      <div className={Styles.backendSkillDiv}>
+      <div id="backendComp"className={Styles.backendSkillDiv}>
         <h2 className={Styles.skillName} style={{fontSize:"30px" , marginLeft: "60px"}}>Backend and Frameworks</h2>
         <div style={{ position: 'relative', left: "20px" }}>
           <Image

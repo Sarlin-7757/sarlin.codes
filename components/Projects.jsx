@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section id={Styles.projectSection} className='font-mono'>
         {/* <h1>Projects</h1> */}
-        <h3 className={Styles.projCompHead}>Projects</h3>
+        <h3 id="projectComp"className={Styles.projCompHead}>Projects</h3>
         <div id={Styles.projectCard}>
             <ProjectCard />
         </div>
