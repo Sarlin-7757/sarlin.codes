@@ -19,15 +19,15 @@ const SideBar = () => {
   return (
     <div className={Styles.sidebar_prop}>
         <ul className='pt-5 ml-5 font-mono text-lg w-full'>
-            <li id={Styles.list_items} >&gt;<a href='#'>Introduction</a></li>            
-            <li id={Styles.list_items} onClick={toggleSkill}>&gt; Skills</li>
+            <li id={Styles.list_items} >&gt;<a href='#'> Introduction/</a></li>            
+            <li id={Styles.list_items} onClick={toggleSkill}>&gt; Skills/</li>
             {isSkilOpen && (
               <ul className='submenuSkill'  style={{marginTop:"5px"}}>
                 <li style={{position:"relative" , left:"40px" , fontSize:"14px" , cursor:"pointer" , marginTop:"4px"}}><a href='#frontEndComp'>- Frontend</a></li>
                 <li style={{position:"relative" , left:"40px" , fontSize:"14px" , cursor:"pointer" , marginTop:"4px"}}><a href='#backendComp'>- Backend</a></li>
               </ul>
             )}
-            <li id={Styles.list_items} onClick={toggleProjects}>&gt; <a href='#projectComp'>Projects</a></li>            
+            <li id={Styles.list_items} onClick={toggleProjects}>&gt; <a href='#projectComp'> Projects/</a></li>            
             {/* {isProjectOpen &&(
             <ul className='submenu' style={{marginTop:"5px"}}>
                 <li style={{position:"relative" , left:"40px" , fontSize:"14px" , cursor:"pointer" , marginTop:"4px"}}>- Face Detection</li> 
