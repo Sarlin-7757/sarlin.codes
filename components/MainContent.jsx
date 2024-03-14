@@ -25,7 +25,7 @@ const MainContent = () => {
       </div>
             <div id={Styles.main_content_bioImage}>
              {/* This is my image */}
-             <Image src="/assets/images/pp1.png " id={Styles.profileImage}  width={450} height={380}/>
+             <Image src="/assets/images/profilepic.png " alt="profilepic"id={Styles.profileImage}  width={450} height={380}/>
         </div>
     </div>
     
