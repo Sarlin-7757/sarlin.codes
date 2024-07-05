@@ -1,58 +1,20 @@
-#projectSection{
-    height: 100vh;
-    width:100%;
-    position: absolute;
-    top:170rem;
-}
-
-.projCompHead{
-    position:relative;
-     left:24.8rem;
-    width:64px;
-}
-
 
 #projectCard{
-    position: relative;
-    left:28.4rem;
-    width: 60%;
-    margin-top: 40px;
+    margin-top: 10rem;
+    max-width: fit-content;
+    margin-inline:auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: rgb(193, 202, 224);
+} 
+
+.projCompHead{
+    margin-left: 1rem;
+    color: rgb(189, 154, 247);
+    margin-bottom: 2rem;
+    width:64px;
+    font-weight: 500;
 }
 
 
 
-@media only screen and (min-device-width: 768px) and (max-device-width:1024px){
-
-    #projectSection{
-        top:230rem;
-        left: -1rem;
-    }
-
-    .projCompHead{
-      left: 8.9rem;  
-    }
-
-    #projectCard{
-        left:11rem;
-        top:2em;  
-        width: 70%;
-    }
-}
-
-
-@media(max-width:480px){
-    #projectSection{
-        top: 210rem;
-    }
-
-    .projCompHead{
-        left:3.5rem;
-        font-size: 15px;
-    }
-
-
-    #projectCard{
-       left: 3rem; 
-       width: 65%;
-    }
-}

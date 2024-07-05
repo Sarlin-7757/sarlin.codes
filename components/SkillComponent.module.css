@@ -1,22 +1,12 @@
-#skill_Div{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    /* border-bottom: 1px solid rgb(78, 78, 78); */
-    /* left: 22rem; */
+#skill_Div{ 
+    min-height: 600px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: rgb(193, 202, 224);
+    margin-top: 7rem;
+    max-width: fit-content;
+    margin-inline: auto;
 }
-
-#dot{
-   top: 53px;
-    left: 53px;
-    position: relative;
-    border-radius: 50%;
-    height: 16px;
-    width: 15px;
-    background: rgb(78,78,78);
-    display: flex;
-} 
-
 #iconImage{
     position: relative;
     left: 14rem;
@@ -34,88 +24,23 @@
     margin-bottom: 5px;
 }
 
-.skillCompHead{
-    position: relative;
-    left: 24.8rem;
-    width: 64px;
-}
-
 .frontendSkillDiv{
-    position: relative;
-    margin-top: 26px; 
-    width: 50%; 
-    left: 22.5rem; 
-    height:100%;
+    min-height: 400px;
 }
 
 .backendSkillDiv{
-    /* bottom: 5rem; */
-    position: relative;
-    width: 50%;
-    left: 22.5rem;  
-    height:90%;
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width:1024px){
-
-    .skillCompSection{
-        height: 100vh;
-        width: 100%;
-        position: relative;
-        top:40rem; 
-    }
-
-    #skill_Div{
-        left:-1rem;
-    }
-
-    .skillCompHead{
-        position: relative;
-        left:8.9rem;
-    }
+  margin-top: 10rem; 
+  min-height: 400px;
+}  
 
 
-    .frontendSkillDiv{
-        left:12.5rem;
-        width: 30%;
-        height: 90%;
-    }
 
-    .backendSkillDiv{
-        left:12.5rem;
-        width: 30%;
-        bottom: -60rem;
-        height: 90%;
-        position: absolute;
-    }
+
+.skillCompHead{
+    width: 64px;
+    font-weight: 500;
+    color: rgb(187, 154, 247);
 }
 
 
 
-@media(max-width:480px){
-    #skill_Div{
-        display: flex;
-        flex-direction: column;
-        top: 89rem;
-        left: -22rem ;
-    /* border-bottom: 1px solid rgb(78, 78, 78); */
-    /* left: 22rem; */
-    }
-
-    #skillCompHead{
-        font-size: 15px;
-    }
-
-    #skillName{
-        font-size: 24px;
-    }
-
-    .frontendSkillDiv{
-        width: 0%;
-    }
-
-    .backendSkillDiv{
-        width: 0%;
-        top:13rem ;
-    }
-}

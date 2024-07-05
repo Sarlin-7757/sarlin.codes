@@ -4,16 +4,16 @@ import Styles from "./SkillComponent.module.css"
 const SkillsComponent = () => {
 
   return (
-    <section id="SkillsComp" className={Styles.skillCompSection}>
-      <div className='font-mono' id={Styles.skill_Div}>
-      <h3 className={Styles.skillCompHead} >Skills</h3>
-
+     
+      <div className='' id={Styles.skill_Div}>
+          <h3 className={Styles.skillCompHead} >Skills</h3> 
       <div className={Styles.frontendSkillDiv}>
-        <h2 id="frontEndComp"className={Styles.skillName} style={{ fontSize: "30px", marginLeft: "60px" }}>Frontend Frameworks.</h2>
-        <div style={{ position: 'relative', left: "20px" }}>
+        <h2 id="frontEndComp"className={Styles.skillName} style={{ fontSize: "30px"}}>Frontend Frameworks.</h2>
+        <div>
           <Image
             id={Styles.iconImage}
             src="/assets/icons/reacticon.svg"
+            alt='React-icon'
             width={40}
             height={40}
           />
@@ -25,6 +25,7 @@ const SkillsComponent = () => {
             id={Styles.iconImage}
             style={{ filter: "invert(100%)", top: "4.5rem" }}
             src="/assets/icons/next.svg"
+            alt='Next.js icon'
             width={70}
             height={70}
           />
@@ -36,6 +37,7 @@ const SkillsComponent = () => {
           <Image
             id={Styles.iconImage}
             src="/assets/icons/mongoDB.png"
+            alt='MongoDb icon'
             width={40}
             height={40}
            /> 
@@ -47,6 +49,7 @@ const SkillsComponent = () => {
             id={Styles.iconImage}
             style={{right:"15px"}}
             src="/assets/icons/tailwind-css.svg"
+            alt='Tailwind icon'
             width={40}
             height={40}
           />
@@ -57,11 +60,12 @@ const SkillsComponent = () => {
       </div >
 
       <div id="backendComp"className={Styles.backendSkillDiv}>
-        <h2 className={Styles.skillName} style={{fontSize:"30px" , marginLeft: "60px"}}>Backend Frameworks.</h2>
-        <div style={{ position: 'relative', left: "20px" }}>
+        <h2 className={Styles.skillName} style={{fontSize:"30px"}}>Backend Frameworks.</h2>
+        <div>
           <Image
             id={Styles.iconImage}
             src="/assets/icons/nodejs.svg"
+            alt='Node icon'
             width={50}
             height={50}
           />
@@ -73,6 +77,7 @@ const SkillsComponent = () => {
             id={Styles.iconImage}
             style={{ filter: "invert(100%)", top: "5.5rem" }}
             src="/assets/icons/express.svg"
+            alt='Express icon'
             width={40}
             height={40}
           />
@@ -84,29 +89,28 @@ const SkillsComponent = () => {
           <Image
             id={Styles.iconImage}
             src="/assets/icons/python.svg"
+            alt='Python icon'
             width={40}
             height={40}
            /> 
           <span id={Styles.dot}></span>
           <h3 style={{ position: "relative", left: "85px", top: "35px", fontSize: "20px" }}>Python</h3>
           <div id={Styles.line}></div>
-
           <Image 
             id={Styles.iconImage}
-            style={{right:"15px" , filter:"invert(100%)" , bottom:"1rem"}}
-            src="/assets/icons/api.png"
+            style={{right:"15px" , "top":"2rem" }}
+            src="/assets/icons/go.svg"
+            alt='Golang icon'
             width={40}
             height={40}
           />
           <span id={Styles.dot}></span>
-          <h3 style={{ position: "relative", left: "85px", top: "35px", fontSize: "20px" }}>API's </h3>
-          {/* <div id={Styles.line}></div>  */}
+          <h3 style={{ position: "relative", left: "85px", fontSize: "20px" }}>GoLang</h3>
         </div>
       </div>
     </div>
 
 
-    </section>
       )
 }
 

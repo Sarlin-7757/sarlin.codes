@@ -1,150 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 #main_content{
-    
-    position: relative;
-    left:22rem;
-    height: 50vh;
-    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-inline:auto; 
+    min-height: 200px;
     padding: 30px;
-    /* border-bottom:1px solid  rgb(78, 78, 78);  */
-    /* position: absolute; */
 }
+
+
 
 #maincontent_heading_container{
     margin-top: 20px;
-    width: 45rem;
-    position: relative;
-    left: 70px;
+    max-width: 45rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
 }
 
 
 #main_content_heading{
  
-    font-size: 62px;
+    font-size: 70px;
     font-weight: 700;
+    color: rgb(193,202,224);
 }
 
 #main_content_bio{
-    /* display: flex; */
-    width: 65rem;
-    position: relative;
-    left: 70px;
+    font-weight: 500;
+    max-width: 49rem;
+    color: rgb(193, 202, 224);
 }
 
 #main_content_paragraph{
     left: 70px;
-    /* width: 45rem; */
     line-height: 3.5rem;
 }
 
 #main_content_bioImage{
-    width: 23rem;
+    max-width: 23rem;
     height: 23rem;
     position: relative;
-    left: 54rem;
-    bottom: 23rem;   
+    bottom: -4rem;   
     border-radius: 180px;
     box-shadow: inset 0 -1 0 0 #030808;
+    border: rgb(193, 202, 224) 2px solid;
 }
 
 #profileImage{
     border-radius: 180px;
     transition: transform 250ms;
 }
-
-/* #profileImage:hover{
-    transform: rotate3d(0 , 0 , 1 , 45deg);
-} */
-
-/* tablets and ipads  */
-
-
-@media only screen and (min-device-width: 768px)and (max-device-width:1024px){
-
-    #main_content{
-        left:-1rem;
-        border-bottom:none;
-    }
-
-    #maincontent_heading_container{
-        width: 85%;
-
-    }
-    #main_content_heading{
-        font-size: 34px;
-        width: 85%;
-    }
-    
-
-    #main_content_bio{
-        width: 85%;
-        border-radius: none;
-    }
-
-    #main_content_bioImage{
-        height: 360px;
-        width: 450px ;
-        top:5em;
-        left:6rem
-    }
-
-    #profileImage{
-        border-radius: 70px;
-    }
-
-}
-
-@media  only screen and (min-device-width:768px) and (max-device-width:942px) {
-
-    #main_content_bioImage{
-        left:4rem;
-    }
-
-   
+.introductionStyles{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: rgb(187,154 ,247 );
 }
 
 
-/* mobile  devices  */
-
-@media  (max-width:480px){
-    #main_content{
-        left: 0rem;
-        border-bottom: none;
-    }
-
-
-     #main_content_h3{
-        font-size: 15px;
-    }
-
-    #maincontent_heading_container{
-        width: 10rem ;
-        left: 12px;
-    }
-
-    #main_content_heading{
-        font-size: 54px;
-    }
-
-    #main_content_bio{
-        left: 24px;
-        width: 20rem;
-    }
-
-    #main_content_paragraph{
-        font-size: 16px;
-    }
-
-    #main_content_bioImage{
-        height: 23rem;
-        width: 23rem ;
-        left:2rem;
-        bottom: -5rem;
-    }
-
-    #profileImage{
-        border-radius: 76px;
-        height: 260px;
-        width: 310px;
-    }
-    
-}

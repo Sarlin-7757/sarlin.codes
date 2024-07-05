@@ -6,8 +6,9 @@ import Image from 'next/image'
 const MainContent = () => {
   return (
     
-    <div id={Styles.main_content} className='font-mono'>
-     <h3 style={{width:"115px"}}>Introduction</h3>
+    <div id={Styles.main_content} className=''>
+        <div className='maintaingFlexForMainContainer'>
+        <h3 className={Styles.introductionStyles} style={{width:"115px"}}>Introduction</h3>
         <div id={Styles.maincontent_heading_container}>
             <h1 id={Styles.main_content_heading}>Hi! I am Saransh</h1> 
         </div>
@@ -20,7 +21,7 @@ const MainContent = () => {
             </p>
          
         </div>
-
+        </div>
         <div id={Styles.main_content_bioImage}>
              {/* This is my image */}
              <Image src="/assets/images/profilepic.png " alt="profilepic"id={Styles.profileImage}  width={380} height={380}/>

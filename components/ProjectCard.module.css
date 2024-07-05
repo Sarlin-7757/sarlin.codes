@@ -2,31 +2,12 @@
     max-width: 32rem;
 }
 
-
-
-@media only screen and (min-device-width: 768px) and  (max-device-width:1024px){
-
-    #projcardComp{
-        max-width: 48rem;    
-    }
+#cardStyles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
     
 }
 
 
-@media(max-width:480px){
-    #cardForMobile{
-        flex-direction: column;
-        margin-bottom: 2rem;
-    }
-
-
-    #inncerCardProp_u{
-        margin-bottom: 1rem;
-        margin-top:1rem;
-    }
-
-    #innerCardProp_l{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-}
